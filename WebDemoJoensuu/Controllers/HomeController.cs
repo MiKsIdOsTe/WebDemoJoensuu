@@ -43,6 +43,7 @@ namespace WebDemoJoensuu.Controllers
         public IActionResult OmaTesti()
         {
             return Content("Hello, World!");
+            
         }
     }
 }
