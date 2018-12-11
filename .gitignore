@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs/WebDemoJoensuu/v15
+/WebDemoJoensuu/bin/Debug/netcoreapp2.1
+/WebDemoJoensuu/obj/Debug/netcoreapp2.1
