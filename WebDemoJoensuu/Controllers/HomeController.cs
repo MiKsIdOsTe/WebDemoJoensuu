@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using WebDemoJoensuu.Models;
@@ -44,6 +45,20 @@ namespace WebDemoJoensuu.Controllers
         {
             return Content("Hello, World!");
             
+        }
+        public IActionResult TietokantaTesti()
+        {
+            StringBuilder teksti = new StringBuilder();
+
+            NorthwindContext malli = new NorthwindContext();
+
+            foreach (Customers asiakas in malli.Customers)
+            {
+                teksti.AppendLine(asiakas.CompanyName);
+            }
+
+            return Content(teksti.ToString());
+
         }
     }
 }
