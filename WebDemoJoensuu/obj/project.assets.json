@@ -12536,11 +12536,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lentt\\source\\repos\\WebDemoJoensuu\\WebDemoJoensuu\\WebDemoJoensuu.csproj",
+      "projectUniqueName": "C:\\CodeBoostCamp\\WebReps\\WebDemoJoensuu\\WebDemoJoensuu\\WebDemoJoensuu.csproj",
       "projectName": "WebDemoJoensuu",
-      "projectPath": "C:\\Users\\lentt\\source\\repos\\WebDemoJoensuu\\WebDemoJoensuu\\WebDemoJoensuu.csproj",
+      "projectPath": "C:\\CodeBoostCamp\\WebReps\\WebDemoJoensuu\\WebDemoJoensuu\\WebDemoJoensuu.csproj",
       "packagesPath": "C:\\Users\\lentt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lentt\\source\\repos\\WebDemoJoensuu\\WebDemoJoensuu\\obj\\",
+      "outputPath": "C:\\CodeBoostCamp\\WebReps\\WebDemoJoensuu\\WebDemoJoensuu\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
